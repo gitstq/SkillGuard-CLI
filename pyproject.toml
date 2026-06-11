@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillguard-cli"
+version = "1.0.0"
+description = "🛡️ Lightweight AI Agent Skill Security Scanner - Zero Dependencies"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "SkillGuard Team"},
+]
+keywords = ["ai", "agent", "skill", "security", "scanner", "claude", "cursor", "copilot", "mcp"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Security",
+    "Topic :: Software Development :: Quality Assurance",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+skillguard = "skillguard.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/gitstq/SkillGuard-CLI"
+"Bug Reports" = "https://github.com/gitstq/SkillGuard-CLI/issues"
+Source = "https://github.com/gitstq/SkillGuard-CLI"
